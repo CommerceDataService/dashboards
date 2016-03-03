@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/views/pages/ecommerce/productsList.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA,E","file":"/client/views/pages/ecommerce/productsList.js","sourcesContent":["Template.productsList.rendered = function(){\n\n    // Initialize fooTable\n    $('.footable').footable();\n\n};"]}

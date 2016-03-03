@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/startup/default.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA,G","file":"/client/startup/default.js","sourcesContent":["// Run this when the meteor app is started\nMeteor.startup(function () {\n\n});"]}

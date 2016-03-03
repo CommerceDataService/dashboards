@@ -1,0 +1,2476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\INSPINIAMVC5_Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>12/11/2014 15:10:56</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>12/11/2014 15:10:56</publishTime>
+    </File>
+    <File Include="bin/Inspinia_MVC5.dll">
+      <publishTime>08/24/2015 11:24:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>12/04/2014 11:02:22</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/pl/System.Web.Helpers.resources.dll">
+      <publishTime>12/04/2014 11:25:56</publishTime>
+    </File>
+    <File Include="bin/pl/System.Web.Mvc.resources.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/pl/System.Web.Optimization.resources.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/pl/System.Web.Razor.resources.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/pl/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>12/04/2014 11:25:56</publishTime>
+    </File>
+    <File Include="bin/pl/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>12/04/2014 11:25:56</publishTime>
+    </File>
+    <File Include="bin/pl/System.Web.WebPages.resources.dll">
+      <publishTime>12/04/2014 11:25:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>12/04/2014 11:25:54</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcControllerWithContext/Controller.cs.t4">
+      <publishTime>12/12/2014 09:21:50</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/Create.cs.t4">
+      <publishTime>12/12/2014 11:43:02</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/Delete.cs.t4">
+      <publishTime>12/12/2014 11:34:32</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/Details.cs.t4">
+      <publishTime>12/12/2014 11:34:52</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/Edit.cs.t4">
+      <publishTime>12/12/2014 11:35:42</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/Empty.cs.t4">
+      <publishTime>12/12/2014 09:21:50</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/Imports.include.t4">
+      <publishTime>12/12/2014 09:21:50</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/List.cs.t4">
+      <publishTime>12/12/2014 11:47:28</publishTime>
+    </File>
+    <File Include="CodeTemplates/MvcView/ModelMetadataFunctions.cs.include.t4">
+      <publishTime>12/12/2014 09:21:50</publishTime>
+    </File>
+    <File Include="Content/animate.css">
+      <publishTime>12/04/2014 11:27:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>12/04/2014 11:25:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>12/04/2014 11:25:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>12/04/2014 11:25:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>06/16/2015 16:12:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="Content/email.css">
+      <publishTime>12/11/2014 11:26:12</publishTime>
+    </File>
+    <File Include="Content/landing/avatar_all.png">
+      <publishTime>06/12/2015 17:12:40</publishTime>
+    </File>
+    <File Include="Content/landing/header_one.jpg">
+      <publishTime>06/12/2015 17:12:40</publishTime>
+    </File>
+    <File Include="Content/landing/header_two.jpg">
+      <publishTime>06/12/2015 17:12:40</publishTime>
+    </File>
+    <File Include="Content/landing/word_map.png">
+      <publishTime>06/12/2015 17:12:40</publishTime>
+    </File>
+    <File Include="Content/patterns/congruent_pentagon.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/patterns/header-profile-skin-1.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/patterns/header-profile-skin-2.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/patterns/header-profile-skin-3.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/patterns/header-profile.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/patterns/otis_redding.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/patterns/shattered.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/patterns/triangular.png">
+      <publishTime>12/04/2014 11:28:44</publishTime>
+    </File>
+    <File Include="Content/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css">
+      <publishTime>05/28/2015 12:32:52</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/css/blueimp-gallery-indicator.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/css/blueimp-gallery-video.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/css/blueimp-gallery.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/css/blueimp-gallery.min.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/css/demo.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/img/error.png">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/img/error.svg">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/img/loading.gif">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/img/play-pause.png">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/img/play-pause.svg">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/img/video-play.png">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/blueimp/img/video-play.svg">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/bootstrap-rtl/bootstrap-rtl.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/bootstrap-rtl/bootstrap-rtl.css.map">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/bootstrap-rtl/bootstrap-rtl.min.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/chartist/chartist.min.css">
+      <publishTime>06/08/2015 16:23:04</publishTime>
+    </File>
+    <File Include="Content/plugins/chosen/chosen-sprite%402x.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/chosen/chosen-sprite.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/chosen/chosen.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/clockpicker/clockpicker.css">
+      <publishTime>08/07/2014 04:42:34</publishTime>
+    </File>
+    <File Include="Content/plugins/codemirror/ambiance.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/codemirror/codemirror.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/colorpicker/bootstrap-colorpicker.min.css">
+      <publishTime>12/20/2014 11:29:18</publishTime>
+    </File>
+    <File Include="Content/plugins/cropper/cropper.min.css">
+      <publishTime>12/20/2014 11:29:18</publishTime>
+    </File>
+    <File Include="Content/plugins/datapicker/datepicker3.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/dataTables/dataTables.bootstrap.css">
+      <publishTime>08/12/2015 20:26:40</publishTime>
+    </File>
+    <File Include="Content/plugins/dataTables/dataTables.responsive.css">
+      <publishTime>11/17/2014 11:22:06</publishTime>
+    </File>
+    <File Include="Content/plugins/dataTables/dataTables.tableTools.min.css">
+      <publishTime>04/01/2015 19:54:40</publishTime>
+    </File>
+    <File Include="Content/plugins/daterangepicker/daterangepicker-bs3.css">
+      <publishTime>04/08/2015 12:45:10</publishTime>
+    </File>
+    <File Include="Content/plugins/dropzone/basic.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/dropzone/dropzone.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/footable/fonts/footable.eot">
+      <publishTime>04/20/2015 04:55:26</publishTime>
+    </File>
+    <File Include="Content/plugins/footable/fonts/footable.svg">
+      <publishTime>04/20/2015 04:55:26</publishTime>
+    </File>
+    <File Include="Content/plugins/footable/fonts/footable.ttf">
+      <publishTime>04/20/2015 04:55:26</publishTime>
+    </File>
+    <File Include="Content/plugins/footable/fonts/footable.woff">
+      <publishTime>04/20/2015 04:55:26</publishTime>
+    </File>
+    <File Include="Content/plugins/footable/footable.core.css">
+      <publishTime>04/20/2015 04:55:26</publishTime>
+    </File>
+    <File Include="Content/plugins/fullcalendar/fullcalendar.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/fullcalendar/fullcalendar.print.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/iCheck/custom.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/iCheck/green%402x.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/iCheck/green.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/bootstrap-colorpicker/alpha-horizontal.png">
+      <publishTime>12/20/2014 11:47:40</publishTime>
+    </File>
+    <File Include="Content/plugins/images/bootstrap-colorpicker/alpha.png">
+      <publishTime>12/20/2014 11:47:40</publishTime>
+    </File>
+    <File Include="Content/plugins/images/bootstrap-colorpicker/hue-horizontal.png">
+      <publishTime>12/20/2014 11:47:40</publishTime>
+    </File>
+    <File Include="Content/plugins/images/bootstrap-colorpicker/hue.png">
+      <publishTime>12/20/2014 11:47:40</publishTime>
+    </File>
+    <File Include="Content/plugins/images/bootstrap-colorpicker/saturation.png">
+      <publishTime>12/20/2014 11:47:40</publishTime>
+    </File>
+    <File Include="Content/plugins/images/sort.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/sort_asc.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/sort_desc.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/sprite-skin-flat.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/sprite-skin-flat2.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/sprite-skin-nice.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/sprite-skin-simple.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/spritemap%402x.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/images/spritemap.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/ionRangeSlider/ion.rangeSlider.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/ionRangeSlider/ion.rangeSlider.skinNice.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/ionRangeSlider/ion.rangeSlider.skinSimple.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jasny/jasny-bootstrap.min.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jqGrid/ui.jqgrid.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/animated-overlay.gif">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-icons_222222_256x240.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-icons_454545_256x240.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-icons_888888_256x240.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css">
+      <publishTime>01/21/2015 12:21:26</publishTime>
+    </File>
+    <File Include="Content/plugins/jsTree/32px.png">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/jsTree/39px.png">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/jsTree/40px.png">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/jsTree/style.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/jsTree/style.min.css">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/jsTree/throbber.gif">
+      <publishTime>01/30/2015 15:22:00</publishTime>
+    </File>
+    <File Include="Content/plugins/morris/morris-0.4.3.min.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/nouslider/jquery.nouislider.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/select2/select2.min.css">
+      <publishTime>04/26/2015 14:02:52</publishTime>
+    </File>
+    <File Include="Content/plugins/slick/ajax-loader.gif">
+      <publishTime>08/08/2015 01:31:28</publishTime>
+    </File>
+    <File Include="Content/plugins/slick/fonts/slick.eot">
+      <publishTime>08/08/2015 01:31:28</publishTime>
+    </File>
+    <File Include="Content/plugins/slick/fonts/slick.svg">
+      <publishTime>08/08/2015 01:31:28</publishTime>
+    </File>
+    <File Include="Content/plugins/slick/fonts/slick.ttf">
+      <publishTime>08/08/2015 01:31:28</publishTime>
+    </File>
+    <File Include="Content/plugins/slick/fonts/slick.woff">
+      <publishTime>08/08/2015 01:31:28</publishTime>
+    </File>
+    <File Include="Content/plugins/slick/slick-theme.css">
+      <publishTime>08/18/2015 16:18:44</publishTime>
+    </File>
+    <File Include="Content/plugins/slick/slick.css">
+      <publishTime>08/08/2015 01:31:28</publishTime>
+    </File>
+    <File Include="Content/plugins/social-buttons/social-buttons.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/steps/jquery.steps.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/summernote/summernote-bs3.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/summernote/summernote.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/sweetalert/sweetalert.css">
+      <publishTime>05/21/2015 22:15:42</publishTime>
+    </File>
+    <File Include="Content/plugins/switchery/switchery.css">
+      <publishTime>12/09/2014 15:57:06</publishTime>
+    </File>
+    <File Include="Content/plugins/toastr/toastr.min.css">
+      <publishTime>12/20/2014 11:29:18</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>08/23/2015 18:53:26</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/04/2014 11:02:18</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/css/font-awesome.css">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/css/font-awesome.min.css">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/animated.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/bordered-pulled.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/core.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/fixed-width.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/font-awesome.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/icons.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/larger.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/list.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/mixins.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/path.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/rotated-flipped.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/spinning.less">
+      <publishTime>12/04/2014 12:28:25</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/stacked.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/less/variables.less">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/font-awesome.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_animated.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_core.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_fixed-width.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_icons.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_larger.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_list.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_mixins.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_path.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_spinning.scss">
+      <publishTime>12/04/2014 12:28:25</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_stacked.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/font-awesome/scss/_variables.scss">
+      <publishTime>01/22/2015 12:52:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/04/2014 11:25:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/04/2014 11:25:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/04/2014 11:25:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/04/2014 11:25:10</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/04/2014 11:02:18</publishTime>
+    </File>
+    <File Include="Images/a1.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/a2.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/a3.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/a4.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/a5.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/a6.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/a7.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/a8.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/angular_logo.png">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/dashbard4_1.jpg">
+      <publishTime>01/30/2015 15:20:24</publishTime>
+    </File>
+    <File Include="Images/dashbard4_2.jpg">
+      <publishTime>01/30/2015 15:20:24</publishTime>
+    </File>
+    <File Include="Images/email_1.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/email_2.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/email_3.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/full_height.jpg">
+      <publishTime>03/29/2015 14:51:22</publishTime>
+    </File>
+    <File Include="Images/gallery/1.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/10.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/10s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/11.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/11s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/12.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/12s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/1s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/2.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/2s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/3.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/3s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/4.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/4s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/5.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/5s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/6.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/6s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/7.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/7s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/8.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/8s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/9.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/gallery/9s.jpg">
+      <publishTime>01/30/2015 15:20:16</publishTime>
+    </File>
+    <File Include="Images/header.jpg">
+      <publishTime>12/11/2014 11:27:48</publishTime>
+    </File>
+    <File Include="Images/landing/avatar1.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar2.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar3.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar4.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar5.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar6.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar7.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar8.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/avatar9.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/dashboard.png">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/iphone.jpg">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/laptop.png">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/landing/perspective.png">
+      <publishTime>06/12/2015 17:15:12</publishTime>
+    </File>
+    <File Include="Images/off_canvas.jpg">
+      <publishTime>03/29/2015 14:51:22</publishTime>
+    </File>
+    <File Include="Images/p1.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p2.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p3.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p4.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p5.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p6.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p7.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p8.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/profile.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/profile_big.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/profile_small.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p_big1.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p_big2.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/p_big3.jpg">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="Images/zender_logo.png">
+      <publishTime>12/09/2014 11:21:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/11/2014 15:11:04</publishTime>
+    </File>
+    <File Include="Scripts/app/inspinia.js">
+      <publishTime>08/23/2015 18:42:10</publishTime>
+    </File>
+    <File Include="Scripts/app/inspinia.min.js">
+      <publishTime>08/23/2015 18:42:36</publishTime>
+    </File>
+    <File Include="Scripts/app/skin.config.min.js">
+      <publishTime>03/30/2015 17:41:48</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.js">
+      <publishTime>12/04/2014 11:25:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.js">
+      <publishTime>12/04/2014 11:25:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.map">
+      <publishTime>12/04/2014 11:25:02</publishTime>
+    </File>
+    <File Include="Scripts/plugins/blueimp/jquery.blueimp-gallery.min.js">
+      <publishTime>01/30/2015 15:21:34</publishTime>
+    </File>
+    <File Include="Scripts/plugins/chartist/chartist.min.js">
+      <publishTime>06/07/2015 03:03:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/chartist/chartist.min.js.map">
+      <publishTime>06/07/2015 03:03:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/chartJs/Chart.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/chosen/chosen.jquery.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/clockpicker/clockpicker.js">
+      <publishTime>08/07/2014 04:42:34</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/codemirror.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/apl/apl.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/apl/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/asterisk/asterisk.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/asterisk/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/clike/clike.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/clike/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/clike/scala.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/clojure/clojure.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/clojure/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/cobol/cobol.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/cobol/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/coffeescript/coffeescript.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/coffeescript/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/commonlisp/commonlisp.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/commonlisp/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/css/css.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/css/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/css/less.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/css/less_test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/css/scss.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/css/scss_test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/css/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/cypher/cypher.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/cypher/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/d/d.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/d/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/diff/diff.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/diff/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/django/django.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/django/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/dtd/dtd.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/dtd/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/dylan/dylan.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/dylan/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/ecl/ecl.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/ecl/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/eiffel/eiffel.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/eiffel/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/erlang/erlang.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/erlang/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/fortran/fortran.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/fortran/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/gas/gas.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/gas/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/gfm/gfm.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/gfm/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/gfm/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/gherkin/gherkin.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/gherkin/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/go/go.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/go/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/groovy/groovy.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/groovy/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/haml/haml.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/haml/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/haml/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/haskell/haskell.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/haskell/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/haxe/haxe.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/haxe/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/htmlembedded/htmlembedded.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/htmlembedded/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/htmlmixed/htmlmixed.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/htmlmixed/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/http/http.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/http/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/jade/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/jade/jade.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/javascript/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/javascript/javascript.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/javascript/json-ld.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/javascript/test.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/javascript/typescript.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/jinja2/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/jinja2/jinja2.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/julia/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/julia/julia.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/kotlin/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/kotlin/kotlin.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/livescript/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/livescript/livescript.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/lua/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/lua/lua.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/markdown/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/markdown/markdown.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/markdown/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/meta.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/mirc/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/mirc/mirc.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/mllike/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/mllike/mllike.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/modelica/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/modelica/modelica.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/nginx/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/nginx/nginx.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/ntriples/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/ntriples/ntriples.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/octave/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/octave/octave.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/pascal/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/pascal/pascal.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/pegjs/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/pegjs/pegjs.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/perl/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/perl/perl.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/php/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/php/php.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/php/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/pig/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/pig/pig.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/properties/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/properties/properties.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/puppet/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/puppet/puppet.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/python/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/python/python.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/q/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/q/q.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/r/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/r/r.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/rpm/changes/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/rpm/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/rpm/rpm.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/rst/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/rst/rst.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/ruby/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/ruby/ruby.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/ruby/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/rust/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/rust/rust.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sass/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sass/sass.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/scheme/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/scheme/scheme.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/shell/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/shell/shell.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/shell/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sieve/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sieve/sieve.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/slim/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/slim/slim.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/slim/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/smalltalk/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/smalltalk/smalltalk.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/smarty/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/smarty/smarty.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/smartymixed/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/smartymixed/smartymixed.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/solr/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/solr/solr.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sparql/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sparql/sparql.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sql/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/sql/sql.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/stex/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/stex/stex.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/stex/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tcl/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tcl/tcl.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/textile/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/textile/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/textile/textile.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tiddlywiki/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tiki/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tiki/tiki.css">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tiki/tiki.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/toml/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/toml/toml.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tornado/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/tornado/tornado.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/turtle/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/turtle/turtle.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/vb/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/vb/vb.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/vbscript/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/vbscript/vbscript.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/velocity/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/velocity/velocity.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/verilog/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/verilog/test.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/verilog/verilog.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/xml/index.html">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/xml/test.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/xml/xml.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/xquery/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/xquery/test.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/xquery/xquery.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/yaml/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/yaml/yaml.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/z80/index.html">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/codemirror/mode/z80/z80.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/colorpicker/bootstrap-colorpicker.min.js">
+      <publishTime>12/20/2014 11:25:24</publishTime>
+    </File>
+    <File Include="Scripts/plugins/cropper/cropper.min.js">
+      <publishTime>12/20/2014 11:25:24</publishTime>
+    </File>
+    <File Include="Scripts/plugins/datapicker/bootstrap-datepicker.js">
+      <publishTime>12/09/2014 13:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/dataTables/dataTables.bootstrap.js">
+      <publishTime>08/12/2015 20:26:40</publishTime>
+    </File>
+    <File Include="Scripts/plugins/dataTables/dataTables.responsive.js">
+      <publishTime>11/17/2014 11:21:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/dataTables/dataTables.tableTools.min.js">
+      <publishTime>04/01/2015 19:54:40</publishTime>
+    </File>
+    <File Include="Scripts/plugins/dataTables/jquery.dataTables.js">
+      <publishTime>08/12/2015 20:26:40</publishTime>
+    </File>
+    <File Include="Scripts/plugins/dataTables/swf/copy_csv_xls.swf">
+      <publishTime>04/01/2015 19:54:40</publishTime>
+    </File>
+    <File Include="Scripts/plugins/dataTables/swf/copy_csv_xls_pdf.swf">
+      <publishTime>04/01/2015 19:54:40</publishTime>
+    </File>
+    <File Include="Scripts/plugins/daterangepicker/daterangepicker.js">
+      <publishTime>04/08/2015 12:45:10</publishTime>
+    </File>
+    <File Include="Scripts/plugins/diff_match_patch/COPYING">
+      <publishTime>03/29/2015 13:24:50</publishTime>
+    </File>
+    <File Include="Scripts/plugins/diff_match_patch/javascript/diff_match_patch.js">
+      <publishTime>03/29/2015 13:24:50</publishTime>
+    </File>
+    <File Include="Scripts/plugins/diff_match_patch/README.txt">
+      <publishTime>03/29/2015 13:24:50</publishTime>
+    </File>
+    <File Include="Scripts/plugins/dropzone/dropzone.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/easypiechart/easypiechart.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/easypiechart/jquery.easypiechart.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/blank.gif">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/fancybox_loading%402x.gif">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/fancybox_loading.gif">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/fancybox_overlay.png">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/fancybox_sprite%402x.png">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/fancybox_sprite.png">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/helpers/fancybox_buttons.png">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/helpers/jquery.fancybox-buttons.css">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/helpers/jquery.fancybox-buttons.js">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/helpers/jquery.fancybox-media.js">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/helpers/jquery.fancybox-thumbs.css">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/helpers/jquery.fancybox-thumbs.js">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/jquery.fancybox.css">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/jquery.fancybox.js">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fancybox/jquery.fancybox.pack.js">
+      <publishTime>12/09/2014 14:46:44</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/curvedLines.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/excanvas.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/jquery.flot.js">
+      <publishTime>01/30/2015 16:34:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/jquery.flot.pie.js">
+      <publishTime>01/30/2015 16:34:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/jquery.flot.resize.js">
+      <publishTime>01/30/2015 16:34:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/jquery.flot.spline.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/jquery.flot.symbol.js">
+      <publishTime>01/30/2015 16:34:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/jquery.flot.time.js">
+      <publishTime>01/30/2015 16:34:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/flot/jquery.flot.tooltip.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/footable/footable.all.min.js">
+      <publishTime>04/20/2015 04:55:26</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fullcalendar/fullcalendar.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/fullcalendar/moment.min.js">
+      <publishTime>04/08/2015 12:45:10</publishTime>
+    </File>
+    <File Include="Scripts/plugins/gritter/images/gritter-light.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/gritter/images/gritter-long.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/gritter/images/gritter.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/gritter/images/ie-spacer.gif">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/gritter/jquery.gritter.css">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/gritter/jquery.gritter.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/iCheck/icheck.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/idle-timer/idle-timer.min.js">
+      <publishTime>03/29/2015 13:24:50</publishTime>
+    </File>
+    <File Include="Scripts/plugins/ionRangeSlider/ion.rangeSlider.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jasny/jasny-bootstrap.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jeditable/jquery.jeditable.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-ar.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-bg.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-bg1251.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-cat.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-cn.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-cs.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-da.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-de.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-dk.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-el.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-en.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-es.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-fa.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-fi.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-fr.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-gl.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-he.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-hr.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-hr1250.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-hu.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-id.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-is.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-it.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-ja.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-kr.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-lt.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-mne.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-nl.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-no.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-pl.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-pt-br.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-pt.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-ro.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-ru.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-sk.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-sr-latin.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-sr.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-sv.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-th.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-tr.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-tw.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-ua.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/i18n/grid.locale-vi.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jqGrid/jquery.jqGrid.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery-ui-i18n.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-af.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar-DZ.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-az.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-be.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-bg.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-bs.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ca.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-cs.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-cy-GB.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-da.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-de.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-el.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-AU.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-GB.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-NZ.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-eo.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-es.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-et.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-eu.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-fa.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-fi.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-fo.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CA.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CH.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-gl.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-he.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-hi.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-hr.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-hu.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-hy.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-id.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-is.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-it.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ja.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ka.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-kk.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-km.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ko.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ky.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-lb.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-lt.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-lv.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-mk.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ml.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ms.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-nb.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl-BE.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-nn.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-no.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-pl.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt-BR.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-rm.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ro.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ru.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-sk.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-sl.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-sq.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr-SR.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-sv.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-ta.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-th.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-tj.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-tr.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-uk.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-vi.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-CN.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-HK.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-TW.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/animated-overlay.gif">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-icons_222222_256x240.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-icons_454545_256x240.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-icons_888888_256x240.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/jquery-ui.css">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/jquery-ui.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/jquery-ui.min.css">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery-ui/jquery-ui.min.js">
+      <publishTime>12/09/2014 13:46:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jsKnob/jquery.knob.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jsTree/jstree.min.js">
+      <publishTime>01/30/2015 15:21:34</publishTime>
+    </File>
+    <File Include="Scripts/plugins/justified-gallery/jquery.justifiedgallery.css">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/justified-gallery/jquery.justifiedgallery.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/justified-gallery/jquery.justifiedgallery.min.css">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/justified-gallery/jquery.justifiedgallery.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/justified-gallery/loading.gif">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/justified-gallery/README.md">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jvectormap/jquery-jvectormap-2.0.2.css">
+      <publishTime>06/11/2015 12:37:46</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js">
+      <publishTime>03/06/2015 07:31:34</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jvectormap/jquery-jvectormap-world-mill-en.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/masonary/masonry.pkgd.min.js">
+      <publishTime>08/19/2015 21:26:20</publishTime>
+    </File>
+    <File Include="Scripts/plugins/metisMenu/metisMenu.min.js">
+      <publishTime>06/05/2015 13:30:26</publishTime>
+    </File>
+    <File Include="Scripts/plugins/morris/morris.js">
+      <publishTime>03/29/2015 13:27:08</publishTime>
+    </File>
+    <File Include="Scripts/plugins/morris/raphael-2.1.0.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/nestable/jquery.nestable.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/nouslider/jquery.nouislider.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/pace/pace.min.js">
+      <publishTime>03/29/2015 13:27:34</publishTime>
+    </File>
+    <File Include="Scripts/plugins/peity/jquery.peity.min.js">
+      <publishTime>12/09/2014 13:46:48</publishTime>
+    </File>
+    <File Include="Scripts/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js">
+      <publishTime>03/29/2015 13:24:50</publishTime>
+    </File>
+    <File Include="Scripts/plugins/rickshaw/rickshaw.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/rickshaw/vendor/d3.v3.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/select2/select2.full.min.js">
+      <publishTime>04/26/2015 14:02:52</publishTime>
+    </File>
+    <File Include="Scripts/plugins/slick/slick.min.js">
+      <publishTime>08/18/2015 15:54:16</publishTime>
+    </File>
+    <File Include="Scripts/plugins/slimscroll/jquery.slimscroll.min.js">
+      <publishTime>06/11/2015 13:55:02</publishTime>
+    </File>
+    <File Include="Scripts/plugins/sparkline/jquery.sparkline.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/staps/jquery.steps.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/summernote/summernote.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/sweetalert/sweetalert.min.js">
+      <publishTime>05/21/2015 22:15:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/switchery/switchery.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/tinycon/tinycon.min.js">
+      <publishTime>03/29/2015 13:58:40</publishTime>
+    </File>
+    <File Include="Scripts/plugins/toastr/toastr.min.js">
+      <publishTime>12/20/2014 11:25:24</publishTime>
+    </File>
+    <File Include="Scripts/plugins/validate/jquery.validate.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/velocity/velocity.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/velocity/velocity.ui.min.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/video/responsible-video.js">
+      <publishTime>12/09/2014 13:46:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/Article.cshtml">
+      <publishTime>03/29/2015 14:17:18</publishTime>
+    </File>
+    <File Include="Views/AppViews/Blog.cshtml">
+      <publishTime>03/29/2015 14:18:44</publishTime>
+    </File>
+    <File Include="Views/AppViews/Calendar.cshtml">
+      <publishTime>01/21/2015 11:44:12</publishTime>
+    </File>
+    <File Include="Views/AppViews/Clients.cshtml">
+      <publishTime>03/29/2015 14:31:56</publishTime>
+    </File>
+    <File Include="Views/AppViews/Contacts.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/Contacts2.cshtml">
+      <publishTime>08/23/2015 18:30:22</publishTime>
+    </File>
+    <File Include="Views/AppViews/FAQ.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/FileManager.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/IssueTracker.cshtml">
+      <publishTime>03/29/2015 14:27:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/OutlookView.cshtml">
+      <publishTime>03/29/2015 14:39:56</publishTime>
+    </File>
+    <File Include="Views/AppViews/PinBoard.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/Profile.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/Profile2.cshtml">
+      <publishTime>08/23/2015 18:29:16</publishTime>
+    </File>
+    <File Include="Views/AppViews/ProjectDetail.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/Projects.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/SocialFeed.cshtml">
+      <publishTime>06/12/2015 16:41:26</publishTime>
+    </File>
+    <File Include="Views/AppViews/TeamsBoard.cshtml">
+      <publishTime>03/29/2015 14:30:06</publishTime>
+    </File>
+    <File Include="Views/AppViews/Timeline.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/AppViews/VoteList.cshtml">
+      <publishTime>08/23/2015 18:39:28</publishTime>
+    </File>
+    <File Include="Views/CSSAnimations/Index.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Dashboard_1.cshtml">
+      <publishTime>08/23/2015 18:11:08</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Dashboard_2.cshtml">
+      <publishTime>03/29/2015 14:09:18</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Dashboard_3.cshtml">
+      <publishTime>03/29/2015 14:09:18</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Dashboard_4.cshtml">
+      <publishTime>01/30/2015 15:54:00</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Dashboard_4_1.cshtml">
+      <publishTime>03/29/2015 14:09:12</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Dashboard_5.cshtml">
+      <publishTime>08/23/2015 18:08:20</publishTime>
+    </File>
+    <File Include="Views/Ecommerce/Orders.cshtml">
+      <publishTime>06/12/2015 16:54:14</publishTime>
+    </File>
+    <File Include="Views/Ecommerce/Payments.cshtml">
+      <publishTime>08/23/2015 18:36:04</publishTime>
+    </File>
+    <File Include="Views/Ecommerce/ProductDetail.cshtml">
+      <publishTime>08/23/2015 18:35:36</publishTime>
+    </File>
+    <File Include="Views/Ecommerce/ProductEdit.cshtml">
+      <publishTime>06/12/2015 16:57:20</publishTime>
+    </File>
+    <File Include="Views/Ecommerce/ProductsGrid.cshtml">
+      <publishTime>06/12/2015 16:54:48</publishTime>
+    </File>
+    <File Include="Views/Ecommerce/ProductsList.cshtml">
+      <publishTime>06/12/2015 16:54:06</publishTime>
+    </File>
+    <File Include="Views/Forms/Advanced.cshtml">
+      <publishTime>08/24/2015 11:23:56</publishTime>
+    </File>
+    <File Include="Views/Forms/BasicFroms.cshtml">
+      <publishTime>01/21/2015 11:44:12</publishTime>
+    </File>
+    <File Include="Views/Forms/FileUpload.cshtml">
+      <publishTime>01/21/2015 11:49:58</publishTime>
+    </File>
+    <File Include="Views/Forms/TextEditor.cshtml">
+      <publishTime>12/13/2014 10:39:46</publishTime>
+    </File>
+    <File Include="Views/Forms/Wizard.cshtml">
+      <publishTime>01/21/2015 11:44:12</publishTime>
+    </File>
+    <File Include="Views/Gallery/BasicGallery.cshtml">
+      <publishTime>06/12/2015 16:58:18</publishTime>
+    </File>
+    <File Include="Views/Gallery/BootstrapCarusela.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/Gallery/SlickCarusela.cshtml">
+      <publishTime>08/23/2015 18:38:18</publishTime>
+    </File>
+    <File Include="Views/Graphs/Chartist.cshtml">
+      <publishTime>06/12/2015 12:01:16</publishTime>
+    </File>
+    <File Include="Views/Graphs/Chartjs.cshtml">
+      <publishTime>12/25/2014 19:21:48</publishTime>
+    </File>
+    <File Include="Views/Graphs/Flot.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/Graphs/Morris.cshtml">
+      <publishTime>12/13/2014 10:39:46</publishTime>
+    </File>
+    <File Include="Views/Graphs/Peity.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/Graphs/Rickshaw.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/Graphs/Sparkline.cshtml">
+      <publishTime>12/11/2014 12:42:42</publishTime>
+    </File>
+    <File Include="Views/GridOptions/Index.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Json/Index.cshtml">
+      <publishTime>12/13/2014 10:39:46</publishTime>
+    </File>
+    <File Include="Views/Landing/Index.cshtml">
+      <publishTime>06/13/2015 16:23:02</publishTime>
+    </File>
+    <File Include="Views/Layouts/Index.cshtml">
+      <publishTime>03/29/2015 14:52:50</publishTime>
+    </File>
+    <File Include="Views/Layouts/OffCanvas.cshtml">
+      <publishTime>03/29/2015 14:53:54</publishTime>
+    </File>
+    <File Include="Views/Mailbox/AlertEmail.cshtml">
+      <publishTime>12/11/2014 11:26:42</publishTime>
+    </File>
+    <File Include="Views/Mailbox/BasicActionEmail.cshtml">
+      <publishTime>12/11/2014 11:26:44</publishTime>
+    </File>
+    <File Include="Views/Mailbox/BillingEmail.cshtml">
+      <publishTime>12/11/2014 11:26:44</publishTime>
+    </File>
+    <File Include="Views/Mailbox/ComposeEmail.cshtml">
+      <publishTime>12/13/2014 10:39:46</publishTime>
+    </File>
+    <File Include="Views/Mailbox/EmailTemplates.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Mailbox/EmailView.cshtml">
+      <publishTime>12/11/2014 12:35:58</publishTime>
+    </File>
+    <File Include="Views/Mailbox/Inbox.cshtml">
+      <publishTime>01/21/2015 11:41:28</publishTime>
+    </File>
+    <File Include="Views/Metrics/Index.cshtml">
+      <publishTime>06/12/2015 12:31:42</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/AgileBoard.cshtml">
+      <publishTime>06/12/2015 16:54:14</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Chat_view.cshtml">
+      <publishTime>06/13/2015 13:51:24</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/CodeEditor.cshtml">
+      <publishTime>12/13/2014 10:39:46</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Diff.cshtml">
+      <publishTime>06/12/2015 16:54:14</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Forum_post_view.cshtml">
+      <publishTime>12/20/2014 11:39:20</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Forum_view.cshtml">
+      <publishTime>12/20/2014 11:37:52</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/GoogleMaps.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/IdleTimer.cshtml">
+      <publishTime>03/29/2015 14:02:18</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/LiveFavicon.cshtml">
+      <publishTime>03/29/2015 13:57:46</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Masonry.cshtml">
+      <publishTime>08/23/2015 18:33:42</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/ModalWindow.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/NestableList.cshtml">
+      <publishTime>12/20/2014 11:34:06</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Notification.cshtml">
+      <publishTime>12/20/2014 11:37:00</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Spinners.cshtml">
+      <publishTime>03/29/2015 14:15:52</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/SweetAlert.cshtml">
+      <publishTime>06/12/2015 16:43:44</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Timeline_second_version.cshtml">
+      <publishTime>12/20/2014 11:33:32</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Tree_view.cshtml">
+      <publishTime>01/30/2015 16:23:20</publishTime>
+    </File>
+    <File Include="Views/Miscellaneous/Validation.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Pages/EmptyPage.cshtml">
+      <publishTime>01/21/2015 11:57:38</publishTime>
+    </File>
+    <File Include="Views/Pages/ForgotPassword.cshtml">
+      <publishTime>03/29/2015 14:32:56</publishTime>
+    </File>
+    <File Include="Views/Pages/InternalServerError.cshtml">
+      <publishTime>12/11/2014 12:40:32</publishTime>
+    </File>
+    <File Include="Views/Pages/Invoice.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Pages/InvoicePrint.cshtml">
+      <publishTime>12/10/2014 15:44:32</publishTime>
+    </File>
+    <File Include="Views/Pages/LockScreen.cshtml">
+      <publishTime>12/10/2014 15:47:44</publishTime>
+    </File>
+    <File Include="Views/Pages/Login.cshtml">
+      <publishTime>12/11/2014 12:46:34</publishTime>
+    </File>
+    <File Include="Views/Pages/Login_2.cshtml">
+      <publishTime>01/31/2015 14:35:54</publishTime>
+    </File>
+    <File Include="Views/Pages/NotFoundError.cshtml">
+      <publishTime>12/10/2014 15:39:56</publishTime>
+    </File>
+    <File Include="Views/Pages/Register.cshtml">
+      <publishTime>12/11/2014 12:46:34</publishTime>
+    </File>
+    <File Include="Views/Pages/SearchResults.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/Create.cshtml">
+      <publishTime>12/12/2014 11:53:44</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/Delete.cshtml">
+      <publishTime>12/12/2014 11:53:44</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/Details.cshtml">
+      <publishTime>12/12/2014 11:53:44</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/Edit.cshtml">
+      <publishTime>12/12/2014 11:53:44</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/Index.cshtml">
+      <publishTime>12/25/2014 19:21:50</publishTime>
+    </File>
+    <File Include="Views/Shared/_Footer.cshtml">
+      <publishTime>03/29/2015 14:43:54</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/23/2015 18:55:12</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout_2.cshtml">
+      <publishTime>03/30/2015 17:00:52</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout_3.cshtml">
+      <publishTime>03/30/2015 17:00:52</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout_4.cshtml">
+      <publishTime>03/30/2015 17:00:52</publishTime>
+    </File>
+    <File Include="Views/Shared/_Navigation.cshtml">
+      <publishTime>08/23/2015 18:27:24</publishTime>
+    </File>
+    <File Include="Views/Shared/_NavigationOffCanvas.cshtml">
+      <publishTime>03/29/2015 14:55:56</publishTime>
+    </File>
+    <File Include="Views/Shared/_RightSidebar.cshtml">
+      <publishTime>03/29/2015 14:46:02</publishTime>
+    </File>
+    <File Include="Views/Shared/_SkinConfig.cshtml">
+      <publishTime>12/13/2014 13:33:38</publishTime>
+    </File>
+    <File Include="Views/Shared/_TopNavbar.cshtml">
+      <publishTime>03/29/2015 14:44:54</publishTime>
+    </File>
+    <File Include="Views/Shared/_TopNavbar2.cshtml">
+      <publishTime>01/30/2015 15:47:58</publishTime>
+    </File>
+    <File Include="Views/Tables/DataTables.cshtml">
+      <publishTime>01/21/2015 11:57:22</publishTime>
+    </File>
+    <File Include="Views/Tables/FooTables.cshtml">
+      <publishTime>06/12/2015 16:50:58</publishTime>
+    </File>
+    <File Include="Views/Tables/jqGrid.cshtml">
+      <publishTime>01/21/2015 12:29:52</publishTime>
+    </File>
+    <File Include="Views/Tables/StaticTables.cshtml">
+      <publishTime>01/21/2015 11:44:12</publishTime>
+    </File>
+    <File Include="Views/UIElements/BadgesLabelsProgress.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/UIElements/Buttons.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/UIElements/DraggablePanels.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/UIElements/Icons.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/UIElements/NotificationsTooltips.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/UIElements/TablesPanels.cshtml">
+      <publishTime>08/23/2015 18:48:18</publishTime>
+    </File>
+    <File Include="Views/UIElements/Tabs.cshtml">
+      <publishTime>06/12/2015 16:46:34</publishTime>
+    </File>
+    <File Include="Views/UIElements/Typography.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/UIElements/Video.cshtml">
+      <publishTime>12/11/2014 12:42:44</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/23/2015 18:22:38</publishTime>
+    </File>
+    <File Include="Views/Widgets/Index.cshtml">
+      <publishTime>01/21/2015 11:44:12</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>12/04/2014 11:02:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/24/2015 11:24:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

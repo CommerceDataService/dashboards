@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.Razor.pl</id>
+    <version>3.2.2</version>
+    <title>Microsoft ASP.NET Razor — zasoby dla języka polskiego</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/net_library_eula_PLK.htm</licenseUrl>
+    <projectUrl>http://www.asp.net/web-pages</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Ten pakiet zawiera zestawy satelickie dla języka polskiego dotyczące platformy ASP.NET Razor.</description>
+    <summary>Zasoby dla języka polskiego dotyczące pakietu Microsoft.AspNet.Razor</summary>
+    <releaseNotes>Please visit http://go.microsoft.com/fwlink/?LinkID=403011 to view the release notes.</releaseNotes>
+    <copyright>© Microsoft Corporation. Wszelkie prawa zastrzeżone.</copyright>
+    <language>pl</language>
+    <tags>Microsoft AspNet WebPages AspNetWebPages Razor</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Razor" version="[3.2.2]" />
+    </dependencies>
+  </metadata>
+</package>

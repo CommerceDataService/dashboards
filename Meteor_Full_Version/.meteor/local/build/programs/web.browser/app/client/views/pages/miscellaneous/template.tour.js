@@ -1,0 +1,15 @@
+(function(){
+Template.__checkName("tour");
+Template["tour"] = new Template("Template.tour", (function() {
+  var view = this;
+  return [ HTML.Raw("<!-- Page heading -->\n    "), Blaze._TemplateWith(function() {
+    return {
+      title: Spacebars.call("Tour"),
+      category: Spacebars.call("Miscellaneous")
+    };
+  }, function() {
+    return Spacebars.include(view.lookupTemplate("pageHeading"));
+  }), HTML.Raw('\n\n    <div class="wrapper wrapper-content  animated fadeInRight">\n        <div class="row">\n            <div class="col-md-6">\n                <div class="ibox ">\n                    <div class="ibox-title">\n                        <h5>Bootstrap Tour</h5>\n                    </div>\n\n                    <div class="ibox-content">\n                        <p>\n                            Quick and easy way to build your product tours with Bootstrap Popovers.\n                        </p>\n\n                        <div class=" m-t-sm">\n\n                            <a href="#" class="btn btn-primary startTour"><i class="fa fa-play"></i> Start Tour</a>\n\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class="col-md-6">\n                <div class="ibox ">\n                    <div class="ibox-title">\n                        <h5>Tour steps</h5>\n                    </div>\n                    <div class="ibox-content text-center" id="step1">\n                        <div class="p-sm">\n                            <h3>Step 1</h3>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class="row">\n            <div class="col-md-6">\n                <div class="ibox ">\n                    <div class="ibox-title">\n                        <h5>Tour steps</h5>\n                    </div>\n                    <div class="ibox-content text-center" id="step2">\n                        <div class="p-sm">\n                            <h3>Step 2</h3>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class="col-md-6">\n                <div class="ibox ">\n                    <div class="ibox-title">\n                        <h5>Tour steps</h5>\n                    </div>\n                    <div class="ibox-content text-center" id="step3">\n                        <div class="p-sm">\n                            <h3>Step 3</h3>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class="row">\n            <div class="col-md-12">\n                <div class="ibox ">\n                    <div class="ibox-title">\n                        <h5>Tour steps</h5>\n                    </div>\n                    <div class="ibox-content text-center" id="step4">\n                        <div class="p-xl">\n                            <h3>Step 4</h3>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n    </div>') ];
+}));
+
+}).call(this);

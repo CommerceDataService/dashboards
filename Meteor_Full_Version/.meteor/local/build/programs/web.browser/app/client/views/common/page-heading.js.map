@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/views/common/page-heading.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA,G","file":"/client/views/common/page-heading.js","sourcesContent":["Template.pageHeading.helpers({\n\n    // Route for Home link in breadcrumbs\n    home: 'dashboard1'\n\n});"]}

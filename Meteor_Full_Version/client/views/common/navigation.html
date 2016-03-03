@@ -1,0 +1,229 @@
+<template name="navigation">
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+
+            <!-- Close canvas menu used only on OffCanvas page -->
+            <!-- You can remove this tag if you dont use offCanvas menu -->
+            <a class="close-canvas-menu"><i class="fa fa-times"></i></a>
+            <!-- End offCanvas menu toggle -->
+
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle" src="img/profile_small.jpg" />
+                             </span>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David Williams</strong>
+                             </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span> </span> </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="{{pathFor route='profile'}}">Profile</a></li>
+                            <li><a href="{{pathFor route='contacts'}}">Contacts</a></li>
+                            <li><a href="{{pathFor route='mailbox'}}">Mailbox</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{pathFor route='login'}}">Logout</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        IN+
+                    </div>
+                </li>
+                <li class="{{isActiveRoute regex='dashboard1|dashboard2|dashboard3|dashboard4l|dashboard5'}}">
+                    <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label" data-i18n="nav.dashboard">Dashboards</span> <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='dashboard1|dashboard2|dashboard3|dashboard4l|dashboard5' className='in'}}">
+                        <li class="{{isActiveRoute regex='dashboard1'}}"><a href="{{pathFor route='dashboard1'}}">Dashboard v.1</a></li>
+                        <li class="{{isActiveRoute regex='dashboard2'}}"><a href="{{pathFor route='dashboard2'}}">Dashboard v.2</a></li>
+                        <li class="{{isActiveRoute regex='dashboard3'}}"><a href="{{pathFor route='dashboard3'}}">Dashboard v.3</a></li>
+                        <li class="{{isActiveRoute regex='dashboard4l'}}"><a href="{{pathFor route='dashboard4l'}}">Dashboard v.4</a></li>
+                        <li class="{{isActiveRoute regex='dashboard5'}}"><a href="{{pathFor route='dashboard5'}}">Dashboard v.5 <span class="label label-primary pull-right">NEW</span></a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='layouts'}}">
+                    <a href="{{pathFor route='layouts'}}"><i class="fa fa-diamond"></i> <span class="nav-label" data-i18n="nav.layouts">Layouts</span> </a>
+                </li>
+                <li class="{{isActiveRoute regex='c3charts|graphFlot|graphMorris|graphRickshaw|graphChartJs|graphPeity|graphSparkline|graphChartist'}}">
+                    <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label" data-i18n="nav.graphs">Graphs</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='c3charts|graphFlot|graphMorris|graphRickshaw|graphChartJs|graphPeity|graphSparkline|graphChartist' className='in'}}">
+                        <li class="{{isActiveRoute regex='graphFlot'}}"><a href="{{pathFor route='graphFlot'}}">Flot Charts</a></li>
+                        <li class="{{isActiveRoute regex='graphRickshaw'}}"><a href="{{pathFor route='graphRickshaw'}}">Rickshaw Charts</a></li>
+                        <li class="{{isActiveRoute regex='graphChartJs'}}"><a href="{{pathFor route='graphChartJs'}}">Chart.js</a></li>
+                        <li class="{{isActiveRoute regex='graphChartist'}}"><a href="{{pathFor route='graphChartist'}}">Chartist</a></li>
+                        <li class="{{isActiveRoute regex='c3charts'}}"><a href="{{pathFor route='c3charts'}}">c3 charts</a></li>
+                        <li class="{{isActiveRoute regex='graphPeity'}}"><a href="{{pathFor route='graphPeity'}}">Peity Charts</a></li>
+                        <li class="{{isActiveRoute regex='graphSparkline'}}"><a href="{{pathFor route='graphSparkline'}}">Sparkline Charts</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='mailbox|emailView|emailCompose|emailTemplates'}}">
+                    <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label" data-i18n="nav.mailbox">Mailbox </span><span class="label label-warning pull-right">16/24</span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='mailbox|emailView|emailCompose|emailTemplates' className='in'}}">
+                        <li class="{{isActiveRoute regex='mailbox'}}"><a href="{{pathFor route='mailbox'}}">Inbox</a></li>
+                        <li class="{{isActiveRoute regex='emailView'}}"><a href="{{pathFor route='emailView'}}">Email view</a></li>
+                        <li class="{{isActiveRoute regex='emailCompose'}}"><a href="{{pathFor route='emailCompose'}}">Compose email</a></li>
+                        <li class="{{isActiveRoute regex='emailTemplates'}}"><a href="{{pathFor route='emailTemplates'}}">Email templates</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='metrics'}}">
+                    <a href="{{pathFor route='metrics'}}"><i class="fa fa-pie-chart"></i> <span class="nav-label" data-i18n="nav.metrics">Metrics</span> </a>
+                </li>
+                <li class="{{isActiveRoute regex='widgets'}}">
+                    <a href="{{pathFor route='widgets'}}"><i class="fa fa-flask"></i> <span class="nav-label" data-i18n="nav.widgets">Widgets</span> </a>
+                </li>
+                <li class="{{isActiveRoute regex='markdown|formBasic|formAdvanced|formWizard|formUpload|textEditor'}}">
+                    <a href="#"><i class="fa fa-edit"></i> <span class="nav-label" data-i18n="nav.forms">Forms</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='markdown|formBasic|formAdvanced|formWizard|formUpload|textEditor' className='in'}}">
+                        <li class="{{isActiveRoute regex='formBasic'}}"><a href="{{pathFor route='formBasic'}}">Basic form</a></li>
+                        <li class="{{isActiveRoute regex='formAdvanced'}}"><a href="{{pathFor route='formAdvanced'}}">Advanced Plugins</a></li>
+                        <li class="{{isActiveRoute regex='formWizard'}}"><a href="{{pathFor route='formWizard'}}">Wizard</a></li>
+                        <li class="{{isActiveRoute regex='formUpload'}}"><a href="{{pathFor route='formUpload'}}">File Upload</a></li>
+                        <li class="{{isActiveRoute regex='textEditor'}}"><a href="{{pathFor route='textEditor'}}">Text Editor</a></li>
+                        <li class="{{isActiveRoute regex='markdown'}}"><a href="{{pathFor route='markdown'}}">Markdown</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='contacts2|profile2|voteList|contacts|profile|projects|projectDetail|teamsBoard|clients|fullHeight|fileManager|calendar|issueTracker|blog|article|faq|timelineOne|pinBoard|socialFeed'}}">
+                    <a href="#"><i class="fa fa-desktop"></i> <span class="nav-label" data-i18n="nav.appviews">App Views</span>  <span class="pull-right label label-primary">SPECIAL</span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='contacts2|profile2|voteList|contacts|profile|projects|projectDetail|teamsBoard|clients|fullHeight|fileManager|Calendar|issueTracker|blog|article|faq|timelineOne|pinBoard|socialFeed' className='in'}}">
+                        <li class="{{isActiveRoute regex='contacts'}}"><a href="{{pathFor route='contacts'}}">Contacts</a></li>
+                        <li class="{{isActiveRoute regex='profile'}}"><a href="{{pathFor route='profile'}}">Profile</a></li>
+                        <li class="{{isActiveRoute regex='profile2'}}"><a href="{{pathFor route='profile2'}}">Profile 2</a></li>
+                        <li class="{{isActiveRoute regex='contacts2'}}"><a href="{{pathFor route='contacts2'}}">Contact 2</a></li>
+                        <li class="{{isActiveRoute regex='projects'}}"><a href="{{pathFor route='projects'}}">Projects</a></li>
+                        <li class="{{isActiveRoute regex='projectDetail'}}"><a href="{{pathFor route='projectDetail'}}">Project detail</a></li>
+                        <li class="{{isActiveRoute regex='teamsBoard'}}"><a href="{{pathFor route='teamsBoard'}}">Teams board</a></li>
+                        <li class="{{isActiveRoute regex='socialFeed'}}"><a href="{{pathFor route='socialFeed'}}">Social feed</a></li>
+                        <li class="{{isActiveRoute regex='clients'}}"><a href="{{pathFor route='clients'}}">Clients</a></li>
+                        <li class="{{isActiveRoute regex='fullHeight'}}"><a href="{{pathFor route='fullHeight'}}">Outlook view</a></li>
+                        <li class="{{isActiveRoute regex='voteList'}}"><a href="{{pathFor route='voteList'}}">Vote list</a></li>
+                        <li class="{{isActiveRoute regex='fileManager'}}"><a href="{{pathFor route='fileManager'}}">File manager</a></li>
+                        <li class="{{isActiveRoute regex='calendar'}}"><a href="{{pathFor route='calendar'}}">Calendar</a></li>
+                        <li class="{{isActiveRoute regex='issueTracker'}}"><a href="{{pathFor route='issueTracker'}}">Issue tracker</a></li>
+                        <li class="{{isActiveRoute regex='blog'}}"><a href="{{pathFor route='blog'}}">Blog</a></li>
+                        <li class="{{isActiveRoute regex='article'}}"><a href="{{pathFor route='article'}}">Article</a></li>
+                        <li class="{{isActiveRoute regex='faq'}}"><a href="{{pathFor route='faq'}}">FAQ</a></li>
+                        <li class="{{isActiveRoute regex='timelineOne'}}"><a href="{{pathFor route='timelineOne'}}">Timeline</a></li>
+                        <li class="{{isActiveRoute regex='pinBoard'}}"><a href="{{pathFor route='pinBoard'}}">Pin board</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='searchResult|invoice|emptyPage'}}">
+                    <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label" data-i18n="nav.otherpages">Other Pages</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='searchResult|invoice|emptyPage' className='in'}}">
+                        <li class="{{isActiveRoute regex='searchResult'}}"><a href="{{pathFor route='searchResult'}}">Search results</a></li>
+                        <li><a href="{{pathFor route='lockScreen'}}">Lockscreen</a></li>
+                        <li class="{{isActiveRoute regex='invoice'}}"><a href="{{pathFor route='invoice'}}">Invoice</a></li>
+                        <li><a href="{{pathFor route='login'}}">Login</a></li>
+                        <li><a href="{{pathFor route='loginTwo'}}">Login v.2</a></li>
+                        <li><a href="{{pathFor route='forgotPassword'}}">Forgot password</a></li>
+                        <li><a href="{{pathFor route='register'}}">Register</a></li>
+                        <li><a href="{{pathFor route='errorOne'}}">404 Page</a></li>
+                        <li><a href="{{pathFor route='errorTwo'}}">500 Page</a></li>
+                        <li class="{{isActiveRoute regex='emptyPage'}}"><a href="{{pathFor route='emptyPage'}}">Empty page</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='clipboard|i18support|tour|truncate|loadingButtons|masonry|toastrNotification|nestableList|agileBoard|timelineTwo|diff|idleTimer|spinners|liveFavicon|googleMaps|codeEditor|modalWindow|forumView|validation|treeView|chatView|sweetAlert'}}">
+                    <a href="#"><i class="fa fa-globe"></i> <span class="nav-label" data-i18n="nav.miscellaneous">Miscellaneous</span><span class="label label-info pull-right">NEW</span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='clipboard|i18support|tour|truncate|loadingButtons|masonry|toastrNotification|nestableList|agileBoard|timelineTwo|diff|idleTimer|spinners|liveFavicon|googleMaps|codeEditor|modalWindow|forumView|validation|treeView|chatView|sweetAlert' className='in'}}">
+                        <li class="{{isActiveRoute regex='toastrNotification'}}"><a href="{{pathFor route='toastrNotification'}}">Notification</a></li>
+                        <li class="{{isActiveRoute regex='nestableList'}}"><a href="{{pathFor route='nestableList'}}">Nestable list</a></li>
+                        <li class="{{isActiveRoute regex='agileBoard'}}"><a href="{{pathFor route='agileBoard'}}">Agile board</a></li>
+                        <li class="{{isActiveRoute regex='timelineTwo'}}"><a href="{{pathFor route='timelineTwo'}}">Timeline v.2</a></li>
+                        <li class="{{isActiveRoute regex='diff'}}"><a href="{{pathFor route='diff'}}">Diff</a></li>
+                        <li class="{{isActiveRoute regex='i18support'}}"><a href="{{pathFor route='i18support'}}">i18 support</a></li>
+                        <li class="{{isActiveRoute regex='sweetAlert'}}"><a href="{{pathFor route='sweetAlert'}}">Sweet alert</a></li>
+                        <li class="{{isActiveRoute regex='idleTimer'}}"><a href="{{pathFor route='idleTimer'}}">Idle timer</a></li>
+                        <li class="{{isActiveRoute regex='truncate'}}"><a href="{{pathFor route='truncate'}}">Truncate</a></li>
+                        <li class="{{isActiveRoute regex='spinners'}}"><a href="{{pathFor route='spinners'}}">Spinners</a></li>
+                        <li class="{{isActiveRoute regex='liveFavicon'}}"><a href="{{pathFor route='liveFavicon'}}">Live favicon</a></li>
+                        <li class="{{isActiveRoute regex='googleMaps'}}"><a href="{{pathFor route='googleMaps'}}">Google maps</a></li>
+                        <li class="{{isActiveRoute regex='codeEditor'}}"><a href="{{pathFor route='codeEditor'}}">Code editor</a></li>
+                        <li class="{{isActiveRoute regex='modalWindow'}}"><a href="{{pathFor route='modalWindow'}}">Modal window</a></li>
+                        <li class="{{isActiveRoute regex='clipboard'}}"><a href="{{pathFor route='clipboard'}}">Clipboard</a></li>
+                        <li class="{{isActiveRoute regex='forumView'}}"><a href="{{pathFor route='forumView'}}">Forum view</a></li>
+                        <li class="{{isActiveRoute regex='validation'}}"><a href="{{pathFor route='validation'}}">Validation</a></li>
+                        <li class="{{isActiveRoute regex='treeView'}}"><a href="{{pathFor route='treeView'}}">Tree view</a></li>
+                        <li class="{{isActiveRoute regex='loadingButtons'}}"><a href="{{pathFor route='loadingButtons'}}">Loading buttons</a></li>
+                        <li class="{{isActiveRoute regex='chatView'}}"><a href="{{pathFor route='chatView'}}">Chat view</a></li>
+                        <li class="{{isActiveRoute regex='masonry'}}"><a href="{{pathFor route='masonry'}}">Masonry</a></li>
+                        <li class="{{isActiveRoute regex='tour'}}"><a href="{{pathFor route='tour'}}">Tour</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='resizeablePanels|typography|icons|draggablePanels|buttons|video|tabsPanels|notifications|badgesLabels|tabs'}}">
+                    <a href="#"><i class="fa fa-flask"></i> <span class="nav-label" data-i18n="nav.uielements">UI Elements</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='resizeablePanels|typography|icons|draggablePanels|buttons|video|tabsPanels|notifications|badgesLabels|tabs' className='in'}}">
+                        <li class="{{isActiveRoute regex='typography'}}"><a href="{{pathFor route='typography'}}">Typography</a></li>
+                        <li class="{{isActiveRoute regex='icons'}}"><a href="{{pathFor route='icons'}}">Icons</a></li>
+                        <li class="{{isActiveRoute regex='draggablePanels'}}"><a href="{{pathFor route='draggablePanels'}}">Draggable Panels</a></li>
+                        <li class="{{isActiveRoute regex='resizeablePanels'}}"><a href="{{pathFor route='resizeablePanels'}}">Resizeable Panels</a></li>
+                        <li class="{{isActiveRoute regex='buttons'}}"><a href="{{pathFor route='buttons'}}">Buttons</a></li>
+                        <li class="{{isActiveRoute regex='video'}}"><a href="{{pathFor route='video'}}">Video</a></li>
+                        <li class="{{isActiveRoute regex='tabsPanels'}}"><a href="{{pathFor route='tabsPanels'}}">Panels</a></li>
+                        <li class="{{isActiveRoute regex='tabs'}}"><a href="{{pathFor route='tabs'}}">Tabs</a></li>
+                        <li class="{{isActiveRoute regex='notifications'}}"><a href="{{pathFor route='notifications'}}">Notifications & Tooltips</a></li>
+                        <li class="{{isActiveRoute regex='badgesLabels'}}"><a href="{{pathFor route='badgesLabels'}}">Badges, Labels, Progress</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='gridOptions'}}">
+                    <a href="{{pathFor route='gridOptions'}}"><i class="fa fa-laptop"></i> <span class="nav-label" data-i18n="nav.gridoptions">Grid options</span></a>
+                </li>
+                <li class="{{isActiveRoute regex='tableStatic|dataTables|fooTables'}}">
+                    <a href="#"><i class="fa fa-table"></i> <span class="nav-label" data-i18n="nav.tables">Tables</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='tableStatic|dataTables|fooTables' className='in'}}">
+                        <li class="{{isActiveRoute regex='tableStatic'}}"><a href="{{pathFor route='tableStatic'}}">Static Tables</a></li>
+                        <li class="{{isActiveRoute regex='fooTables'}}"><a href="{{pathFor route='fooTables'}}">Foo tables</a></li>
+                        <li class="{{isActiveRoute regex='dataTables'}}"><a href="{{pathFor route='dataTables'}}">Data Tables</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='shopingCart|productDetail|payments|productsGrid|productsList|productEdit|orders'}}">
+                    <a href="#"><i class="fa fa-shopping-cart"></i> <span class="nav-label" data-i18n="nav.ecommerce">E-commerce</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level {{isActiveRoute regex='shopingCart|productDetail|payments|productsGrid|productsList|productEdit|orders' className='in'}}">
+                        <li class="{{isActiveRoute regex='productsGrid'}}"><a href="{{pathFor route='productsGrid'}}">Products grid</a></li>
+                        <li class="{{isActiveRoute regex='productsList'}}"><a href="{{pathFor route='productsList'}}">Product list</a></li>
+                        <li class="{{isActiveRoute regex='productEdit'}}"><a href="{{pathFor route='productEdit'}}">Product edit</a></li>
+                        <li class="{{isActiveRoute regex='productDetail'}}"><a href="{{pathFor route='productDetail'}}">Product Detail</a></li>
+                        <li class="{{isActiveRoute regex='shopingCart'}}"><a href="{{pathFor route='shopingCart'}}">Cart</a></li>
+                        <li class="{{isActiveRoute regex='orders'}}"><a href="{{pathFor route='orders'}}">Orders</a></li>
+                        <li class="{{isActiveRoute regex='payments'}}"><a href="{{pathFor route='payments'}}">Credit Card form</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='slick|gallery|carusela'}}">
+                    <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label" data-i18n="nav.gallery">Gallery</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse {{isActiveRoute regex='slick|gallery|carusela' className='in'}}">
+                        <li class="{{isActiveRoute regex='gallery'}}"><a href="{{pathFor route='gallery'}}">Lightbox Gallery</a></li>
+                        <li class="{{isActiveRoute regex='carusela'}}"><a href="{{pathFor route='carusela'}}">Bootstrap Carousel</a></li>
+                        <li class="{{isActiveRoute regex='slick'}}"><a href="{{pathFor route='slick'}}">Slick Carousel</a></li>
+
+                    </ul>
+                </li>
+                <li >
+                    <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label" data-i18n="nav.menulevels">Menu Levels </span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">Third Level <span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="#">Third Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level Item</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">Second Level Item</a></li>
+                        <li>
+                            <a href="#">Second Level Item</a></li>
+                        <li>
+                            <a href="#">Second Level Item</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActiveRoute regex='cssAnimations'}}">
+                    <a href="{{pathFor route='cssAnimations'}}"><i class="fa fa-magic"></i> <span class="nav-label" data-i18n="nav.animations">CSS Animations </span><span class="label label-info pull-right">62</span></a>
+                </li>
+                <li class="special_link">
+                    <a href="{{pathFor route='landing'}}"><i class="fa fa-database"></i> <span class="nav-label" data-i18n="nav.landing">Landing page</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</template>

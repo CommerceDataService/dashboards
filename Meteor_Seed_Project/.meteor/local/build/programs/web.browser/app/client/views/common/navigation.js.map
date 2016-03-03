@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/views/common/navigation.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA,E","file":"/client/views/common/navigation.js","sourcesContent":["Template.navigation.rendered = function(){\n\n    // Initialize metisMenu\n    $('#side-menu').metisMenu();\n\n};"]}
